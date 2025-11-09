@@ -23,10 +23,20 @@ npm run dev
 # open http://localhost:5173
 ```
 
-## Deploy (Vercel)
-1. Push this repository to GitHub.
-2. Import the project on Vercel and use the build command: `npm run build`, output directory: `dist`.
-3. Deploy and test the contact form on the deployed URL.
+### Deploy (Vercel)
+
+Once the project was complete and tested locally, I deployed it on **Vercel** for hosting and live access.  
+Vercel automatically detected the **Vite + React** setup and configured the environment for production.
+
+**Steps I followed:**
+1. Imported the repo into **Vercel Dashboard** and confirmed the build settings:
+   - **Framework Preset:** Vite  
+   - **Build Command:** `npm run build`  
+   - **Output Directory:** `dist`
+2. Deployed directly through Vercel — the build completed successfully and went live at:  https://ez-homepage.vercel.app
+3. Tested the deployed site and verified that the **Contact Form** works correctly, showing the “Form Submitted” message on success.
+
+
 
 ---
 **Author:** SHASHANK DADHICH
