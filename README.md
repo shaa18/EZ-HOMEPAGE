@@ -1,6 +1,6 @@
 # EZ Labs — Homepage (Assignment)
 
-This project was developed manually by **SHASHANK DADHICH** for the EZ Labs front-end assignment.
+This project was developed for the EZ Labs front-end assignment.
 It is a single-page React (Vite) application that recreates the home page and integrates a Contact Form with the EZ Labs backend API.
 
 ## Features
